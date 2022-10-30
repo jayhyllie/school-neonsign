@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(https://www.giffywalls.com/blog/wp-content/uploads/2021/04/Bewitching-Black-brick-wallpaper-1024x683.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Pacifico', sans-serif;
+    letter-spacing: 2px;
+}
+section {
+    background: none;
+    color: beige;
+    padding: 5em 10em;
+    margin-top: 10%;
+    border: 3px solid beige;
+    box-shadow: 0 0 20px #b6a842, 
+    1px 1px 5px #b6a842, 
+    1px 1px 10px #b6a842,
+    0px 0px 10px #000;
+}
+h1 {
+    text-shadow: 0 0 20px #b6a842, 
+    1px 1px 5px #b6a842, 
+    1px 1px 10px #b6a842,
+    1px 1px 10px #000;
+}
